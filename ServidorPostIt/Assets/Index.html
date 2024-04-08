@@ -1,0 +1,19 @@
+﻿<html>
+	<head>
+		<title>Notas de los alumnos</title>
+	</head>
+	<body>
+		<h1>Datos del PostIt</h1>
+
+		<form method="post" action="./crear">
+			<label>Título del PostIt:</label><br />
+			<input type="text" name="titulo"/><br />
+			<label>Contenido del PostIt:</label><br />
+			<textarea rows="5" name="contenido"></textarea><br />
+			<label>Posición:</label><br />
+			<input type="range" min="0" max="100" name="x"/>
+			<input type="range" min="0" max="100" name="y"/><br />
+			<input type="submit" value="Enviar PostIt" />
+		</form>
+	</body>
+</html>
